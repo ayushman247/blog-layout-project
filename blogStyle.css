@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.wrapper{
+    overflow-x: hidden;
+    overflow-y:auto;
+    height: 100vh;
+}
+.container{
+    height: auto;
+    width: 80%;
+    /* background-color: beige; */
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 3fr 1fr;
+    margin:40px auto;
+    margin-bottom: 20px;
+}
+.box{
+    /* border: 1px solid red; */
+}
+.box2{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+.small{
+    /* border: 1px solid blue; */
+}
+.box1{
+    padding: 30px;
+}
+.heading{
+    margin-bottom: 20px;
+}
+.shift{
+    margin-left: 50px;
+}
+.buttons{
+    margin-top: 20px;
+}
+.small{
+    padding: 20px;
+}
+.small1{
+    background-color: rgb(229, 228, 228);
+}
